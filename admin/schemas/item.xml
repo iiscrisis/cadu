@@ -1,0 +1,47 @@
+<schema>
+  <root>
+    <header>projects</header>
+  <root>
+  <fields>
+
+    <field>
+        <tag>title</tag>
+        <label>Title</label>
+        <parent>0</parent>
+        <max>1</max>
+        <type>  <![CDATA[<input type="text" name="title" /> ]]></type>
+    </field>
+    <field>
+        <tag>description</tag>
+        <label>Description</label>
+        <parent>0</parent>
+        <max>1</max>
+        <type>  <![CDATA[ <textarea name="description"> </textarea> ]]></type>
+    </field>
+
+    <field>
+        <tag>credits</tag>
+        <label>Credits</label>
+        <parent>1</parent>
+        <max>1</max>
+        <type></type>
+
+        <field>
+          <tag>credit</tag>
+          <label>Credit</label>
+          <parent>1</parent>
+          <max>100</max>
+          <type></type>
+            <field>
+              <tag>title</tag>
+              <label>Title</label>
+              <parent>0</parent>
+              <max>1</max>
+              <type> <![CDATA[<input type="text" name="title" /> ]]></type>
+            </field>
+        </field>
+
+    </field>
+
+  <fields>
+</schema>
